@@ -1,0 +1,26 @@
+{
+  "comment": {
+    "10": {
+      "fa": "comment-o",
+      "bonus": "10"
+    },
+    "100": {
+      "fa": "comments-o",
+      "bonus": "50"
+    },
+    "500": {
+      "fa": "comments",
+      "bonus": "200"
+    }
+  },
+  "article": {
+    "1": {
+      "fa": "file-text-o",
+      "bonus": "5"
+    },
+    "20": {
+      "fa": "book",
+      "bonus": "50"
+    }
+  }
+}

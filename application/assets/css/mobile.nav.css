@@ -1,0 +1,9 @@
+.navbar-header {
+  background: url('../images/navbar.jpg') repeat-x;
+  background-size: contain;
+}
+
+/* да, это не навигация */
+article {
+  margin: 25px -15px 0 -15px;
+}

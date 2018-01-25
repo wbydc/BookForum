@@ -1,0 +1,36 @@
+header {
+  background: url('../images/navbar.jpg') repeat-x;
+  margin: 0px 0px 30px 0px;
+  width: 100%;
+}
+.navbar-nav>li>a {padding: 10px}
+header.row {margin-left:0px;}
+ul.nav {
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  line-height: 40px;
+}
+nav li {
+  border-right: 1px solid #aaa;
+}
+@media (min-width: 900px) {
+  nav li span {
+    margin: 0 20px;
+  }
+}
+@media (min-width: 1080px) {
+  nav li span {
+    margin: 0 10px;
+  }
+}
+@media (min-width: 1100px) {
+  nav li span {
+    margin: 0 20px;
+  }
+}
+@media (min-width: 1250px) {
+  nav li span {
+    margin: 0 30px;
+  }
+}

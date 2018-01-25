@@ -1,0 +1,364 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  font-size: 24px;
+  overflow-x: hidden;
+  margin-bottom: 50px;
+}
+.background {
+  background: url('../images/background.jpg') repeat;
+  min-height: 100%;
+  position: relative;
+}
+.no-bg {
+  background: #fff;
+  border-radius: 10px;
+}
+div, li{
+/*  border: 1px solid black; */
+}
+.tiny-text {
+  margin: 0;
+  font-style: italic;
+  font-size: 20px;
+  color: #717171;
+}
+.page-heading {
+  font-weight: bolder;
+}
+
+/* main navbar [start] */
+header a, header a:hover {
+  text-decoration: none;
+  color: #222;
+}
+.nav li:hover {
+  background: #ddd;
+  text-shadow: 2px 2px #777;
+}
+/* main navbar [end] */
+
+
+/* right navbar [start] */
+.right-navbar {
+  text-align: center;
+}
+.right-navbar > div {
+  padding-bottom: 15px;
+}
+.right-navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.right-navbar ul li {
+  font-size: 22px;
+  border: 1px solid #aaa;
+  margin: 1px;
+}
+.right-navbar ul li:hover {
+  background: #ccc;
+  border: 1px solid #aaa;
+}
+.user {
+  padding: 15px 15px 0 15px;
+}
+.user input {
+  width: 100%;
+}
+.user div {
+  margin-bottom: 5px;
+}
+/* right navbar [end] */
+
+/* search [start] */
+.topSearch {
+  padding: 0 20px;
+}
+.topSearch input {
+  width: 100%;
+  padding-left: 5px;
+  border-radius: 5px 0 0 5px;
+}
+.topSearch button {
+  background: inherit;
+  width: 100%;
+  height: 100%;
+  padding: 0 13px;
+  border: 0;
+  border-radius: 5px 0 0 5px;
+}
+.topSearch button:hover{
+  text-shadow: 1px 1px 1px #333;
+}
+.topSearch .input-group-addon {
+  padding: 0;
+  border-radius: 0 5px 5px 0;
+}
+.searchBar {
+  margin-top: 20px;
+}
+.searchBar .input-group > input {
+  width: 100%;
+  padding: 2px 5px;
+}
+.searchBar .searchButton {
+  padding: 0;
+}
+.searchBar .input-group-addon > input {
+  padding: 0 15px;
+  width: 100%;
+  height: 100%;
+  border: none;
+  font-size: 20px;
+}
+.searchBar .clearSearch {
+  background: none;
+  color: #333;
+  font-size: 20px;
+}
+/* search [end] */
+
+/* content [start] */
+.posts-area {
+  padding-bottom: 25px;
+}
+.RegForm div {
+  text-align: center;
+}
+.RegForm input {
+  padding: 5px;
+  width: 300px;
+  margin: 5px;
+}
+.RegForm h2 {
+  margin: 0;
+  padding-left: 10px;
+  width: 100%;
+}
+.RegForm .dropdown i {color:#777;font-size: 25px}
+.text-middle {
+  width: 100%;
+  height: 60%;
+  position: relative;
+}
+.text-middle h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 30%;
+  width: 50%;
+  margin: -5% 0 0 -25%;
+}
+article {
+  margin: 25px -15px 0 10px;
+  padding: 0;
+}
+.article-header h1 {
+  margin: 7px;
+}
+.article-header h1 a {
+  color: #333;
+}
+.article-date {
+  text-align: right;
+  padding: 10px;
+}
+.article-body {
+  padding: 0 30px;
+}
+.article-content {
+  padding: 10px;
+  border-top: 1px solid #aaa;
+  border-bottom: 1px solid #aaa;
+  text-align: justify;
+}
+.article-full {
+  text-align: right;
+}
+.article-foot div {
+  text-align: center;
+}
+.article-rating .fa-arrow-up:hover {
+  color: #25f72e;
+}
+.article-rating .fa-arrow-down:hover {
+  color: #eb0909;
+}
+.article-views .fa-eye:hover {
+  color: #3272ed;
+}
+.article-comments .fa-comments-o:hover{
+  color: #c48d00;
+}
+.article-border {
+  border: 3px dotted #fe1414;
+  margin-left: 5px;
+}
+.article {
+  margin-top: 10px;
+}
+.single-comment {
+  margin-bottom: 15px;
+}
+.comment-text-box {
+  padding: 5px 0px;
+  min-height: inherit;
+  border-radius: 15px;
+  background: #ddd;
+}
+.comment-head {
+  border-bottom: 1px solid #aaa;
+  margin-bottom: 5px;
+}
+.img-wrapper {
+  position: relative;
+}
+.img-wrapper img {
+  width: 100%;
+}
+.liked {color: #1be729;}
+.disliked {color: #f41e1e;}
+.userTop {
+  padding: 5px 15px;
+  border: 1px solid #aaa;
+  border-radius: 15px;
+}
+.userTop > i {
+  color: #777;
+  font-size: 20px;
+}
+.userTop span {
+  margin-top: 5px;
+  font-style: italic;
+  font-size: 80%;
+}
+.userAction {
+  border: 1px solid #aaa;
+}
+.userActionBody {
+  text-align: center;
+  color: #333;
+}
+img {
+  max-width: 700px;
+}
+
+/* Dropdown by W3Schools */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  font-size: 16px;
+  text-align: center;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 270px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px;
+  z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+  margin-left: -100px;
+}
+
+/* Pagination */
+.pagination {
+  text-align: center;
+}
+.pagination > ul {
+  padding: 25px 20px 0 20px;
+  margin: 0px;
+}
+.pagination > ul > li {
+  display: inline;
+  margin-right: 5px;
+}
+.pagination a {
+  display: inline-block;
+  background: #e0b034;
+  color: #000;
+  width: 35px;
+  height: 35px;
+  margin: 1px 0;
+}
+.pagination a:hover {
+  text-decoration: none;
+  border: 1px solid #000;
+  margin: 0;
+}
+
+/* content [end] */
+
+/* hc = hidden content */
+.hc-wrapper {
+  width: 100%;
+}
+.hc-shbutton {
+  text-align: center;
+  position: absolute;
+  font-size: 20px;
+  right: 20px;
+  top: 20px;
+}
+.hc-content {
+  display: none;
+  padding: 15px;
+  border: 1px solid #333;
+  border-radius: 30px;
+}
+.hc-content > h2 {
+  margin: 0;
+}
+
+/* nai = new article input */
+.nai {
+  width: 100%;
+  padding: 5px 10px;
+}
+
+/* 404 [start] */
+.body404 {
+  width: 100%;
+  height: 80%;
+  text-align: center;
+  position: relative;
+}
+.content404 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 30%;
+  width: 50%;
+  margin: -15% 0 0 -25%;
+}
+.content404 h1 {
+  color: #ffc634;
+  text-shadow: -2px -2px 0 #000,2px -2px 0 #000,-2px 2px 0 #000,2px 2px 0 #000;
+  font-weight: bolder;
+  font-size: 100px;
+}
+.content404 h2 {
+  color: #c8c22c;
+  font-size: 40px;
+  text-shadow: -1px -1px 0 #000,1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+/* 404 [end] */
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  padding: 5px;
+}
+.bffs {height: 20px;}
+.copyright a {
+  color: #666;
+}
